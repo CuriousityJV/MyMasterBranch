@@ -1,3 +1,3 @@
 # Welcome
-Welcome to my master branch!
-This will serve as my playground for learning different stuff :)
+Welcome to my public repository~
+This will serve as my playground for different things I can learn.
