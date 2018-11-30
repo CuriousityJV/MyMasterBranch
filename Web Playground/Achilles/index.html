@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="styles/idx-style.css">
+  <link rel="stylesheet" href="styles/gbl-style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Han+Sans">
+
+  <script url="/scripts/idx-style.js"></script>
+
+  <head>
+    <title>Welcome to Curiosity JV</title>
+  </head>
+  <body>
+    <!-- NAVIGATOR SECTION : START -->
+    <div class="nav-menu">
+      <div class="nav-bar" id="navigation-bar">
+        <a class="nav-itm">Home</a>
+        <a class="nav-itm">About</a>
+      </div>
+    </div>
+    <!-- NAVIGATOR SECTION : END -->
+    
+    <!-- HOME SECTION -->
+    <div class="sect-home">
+      <!-- HOME PARALLAX -->
+      <div class="gbl-sect-img-hdr sect-home-img-hdr">          
+      </div>
+
+      <!--
+      <div>
+        <div class="gbl-sect-txt-hdr">
+          <a class="gbl-center gbl-sect-hdr">Curiosity JV</a>
+          <a class="gbl-center gbl-sect-sub-hdr">Nothing much to see here, just a product out of my curiosity.</a>
+        </div>
+      -->
+    </div>
+      
+    </div>
+    <div>
+      <h1>ABOUT</h1>
+      <h1>1</h1>
+      <h1>2</h1>
+      <h1>3</h1>
+      <h1>4</h1>
+      <h1>5</h1>
+      <h1>6</h1>
+      <h1>7</h1>
+      <h1>8</h1>
+      <h1>9</h1>
+      <h1>10</h1>
+      <h1>1</h1>
+      <h1>2</h1>
+      <h1>3</h1>
+      <h1>4</h1>
+      <h1>5</h1>
+      <h1>6</h1>
+      <h1>7</h1>
+      <h1>8</h1>
+      <h1>9</h1>
+      <h1>10</h1>
+    </div>
+
+    <script>    
+      window.onscroll = function() {
+        navcollapse()
+      };
+
+      function navcollapse() {
+        var navbar = document.getElementById("navigation-bar");
+
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "nav-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        }
+        else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+      }
+    </script>
+  </body>
+</html>
