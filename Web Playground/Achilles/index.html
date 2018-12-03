@@ -72,10 +72,10 @@
         var navbar = document.getElementById("navigation-bar");
 
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-          navbar.className = "nav-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+          navbar.className = "nav-bar" + " nav-bar-transform";
         }
         else {
-          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+          navbar.className = navbar.className.replace(" nav-bar-transform", "");
         }
       }
     </script>
